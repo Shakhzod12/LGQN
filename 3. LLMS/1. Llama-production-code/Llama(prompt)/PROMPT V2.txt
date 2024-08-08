@@ -1,0 +1,37 @@
+ 
+
+
+PROMPT VERSION 2 
+
+
+
+
+ input_text = f"""
+Given the following narrations describing the actions of a person, generate {len(batch)} independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations.
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions.
+
+******************************************
+EXAMPLE:
+Narrations:
+1. #C C ironed cloth on a table
+2. #C C interacted with X
+3. #C C opened the top of the refrigerator with her right hand
+4. #C C picked up the knife with her right hand
+5. #C C put the book on the shelf
+6. #C C saw a cat in the garden
+
+Corresponding Questions:
+1. What did I iron on the table?
+2. Who did I interact with?
+3. What hand did I use to open the top of the refrigerator?
+4. What did I do with the knife?
+5. Where did I put the book?
+6. In what location did I see the cat?
+******************************************
+
+Now it is your turn
+Narrations:
+{text}
+
+Corresponding Questions:
+"""

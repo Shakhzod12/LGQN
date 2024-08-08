@@ -1,0 +1,2679 @@
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I do with the pack of chocolate on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. Where did I pour the grains? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+ 
+Output: 
+1. Where did I put the card? 
+2. What did I do with the pack of chocolate on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. Where did I pour the grains? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+**************************************
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1.1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I place the card? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open? 
+5. What did I pick from the box? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at?
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1.1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. From where did I take out the box? 
+8. At what location did I look? 
+9. What did I touch? 
+10. At what location did I look? 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1.1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open using my hands? 
+5. What did I pick from the box? 
+6. What did I pour into the blender? 
+7. From where did I take out the drawer? 
+8. On what did I look? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.7, repetition_penalty=1.1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I place on the floor? 
+2. With which hand did I drop the chocolates? 
+3. What did I pick up? 
+4. What did I do with the microwave? 
+5. What did I do with the box? 
+6. What did I pour into the blender? 
+7. On what did I look for a drawer? 
+8. What was I watching out for? 
+9. What did I touch? 
+10. What did I observe?
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. Where did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I do with the chocolate bar? 
+4. What did I do with the microwave? 
+5. What did I pick? 
+6. What did I do with the grains? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. Where did I look? 
+ 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. Where did I open the microwave? 
+5. What did I pick? 
+6. Where did I pour the grains into the blender? 
+7. Where did I open a drawer under the kitchen table? 
+8. Where did I look at? 
+9. What did I touch? 
+10. Who did I look at? 
+************************************** 
+ 
+Narrations: 
+1. #C C opens the door 
+2. #C C touches the box 
+3. #C C touches the door 
+4. #C C touches the table 
+5. #C C puts the ball on the ground 
+6. #C C picks the box 
+7. #C C opens the drawer 
+8. #C C puts the ball on the table 
+9. #C C puts the box on the table 
+10. #C C puts the box on the table 
+11. #C C picks the box 
+12. #C C puts the ball on the table 
+13. #C C puts the ball on the table 
+14. #C C puts the ball on the table 
+15. #C C puts the ball on the table 
+16. #C C puts the ball on the table 
+17. #C C picks the box 
+18. #C C puts the box on the table 
+19. #C C puts the ball on the table 
+20. #C C puts the ball on the table 
+21. #C C puts the box on the table 
+22. #C C puts the box on the table 
+23. #C C puts the ball on the table 
+24. #C C puts the ball on the table 
+25. #C C puts the box on the table 
+26. #C C puts the box on the table 
+27. #C C puts the box on the table 
+28. #C C picks the box 
+29. #C C puts the ball on the table 
+30. #C C puts the box on the table 
+31. #C C puts the box on the table 
+32. #C C puts the box on the table 
+33. #C C puts the box on the table 
+34. #C C puts the box on the table 
+35. #C C puts the ball on the table 
+36. #C C puts the ball on the table 
+37. #C C puts the box on the table 
+38. #C C puts the ball on the table 
+39. #C C puts the box on the table 
+40. #C C puts the box on the table 
+41. #C C puts the box on the table 
+42. #C C puts the box on the table 
+43.
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open under the kitchen table? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+ 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. Where did I open the drawer? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1.1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. Into what device did I pour the grains? 
+7. Under what furniture did I open the drawer? 
+8. At what place did I look? 
+9. What did I touch? 
+10. At what animal did I look?
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1.1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On what surface did I place the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. Using what appliance did I open the microwave? 
+5. From where did I take the box? 
+6. Into what device did I pour the grains? 
+7. Under what furniture did I open the drawer? 
+8. At what type of location was I looking? 
+9. With what part of my body did I touch the pillow? 
+10. At what living creature was I looking?
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1.1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On which surface did I place the card? 
+2. With what hand did I drop the pack of chocolates on the carton on the shelf? 
+3. From where did I pick a chocolate bar? 
+4. What did I do with the microwave? 
+5. What did I pick from? 
+6. What did I pour into the blender? 
+7. Under what surface did I open a drawer? 
+8. In what direction was I looking? 
+9. What did I touch? 
+10. At whom was I looking?
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.8, repetition_penalty=1.1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On which surface did I place the card? 
+2. With which hand did I drop the pack of chocolates onto the carton on the shelf? 
+3. From where did I pick a chocolate bar? 
+4. With what did I open the microwave? 
+5. Where did I find the box? 
+6. Into what did I pour the grains? 
+7. Under which table did I open a drawer? 
+8. Toward which direction did I look? 
+9. Which item did I touch? 
+10. At which animal did I look? 
+
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. Where did I open a drawer? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. Where did I drop the pack of chocolate? 
+3. What did I do with the chocolate bar? 
+4. How did I open the microwave? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. In what location did I look? 
+9. What did I touch? 
+10. What did I look at? 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. Where did I open the drawer? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. Which chocolate bar did I pick? 
+4. How did I open the microwave? 
+5. What box did I pick? 
+6. What did I pour into the blender? 
+7. How did I open the drawer under the kitchen table? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+ 
+************************************** 
+Narrations: 
+1. #C C walks into the kitchen 
+2. #C C opens the fridge with her left hand 
+3. #C C gets a can of soup 
+4. #C C takes off the lid with her right hand 
+5. #C C pours the soup into the bowl 
+6. #C C puts the lid back on 
+7. #C C puts the can in the fridge 
+8. #C C takes out the bowl and goes to the living room 
+9. #C C sits down 
+10. #C C opens the soup 
+ 
+Corresponding Questions: 
+1. What did I walk into? 
+2. What did I open with my left hand? 
+3. What did I get? 
+4. How did I take off the lid with my right hand? 
+5. What did I pour into the bowl? 
+6. How did I put the lid back on? 
+7. What did I put in the fridge? 
+8. What did I take out? 
+9. Where did I sit down? 
+10. What did I open? 
+************************************** 
+ 
+************************************** 
+Narrations: 
+1. #C C puts the book on the shelf 
+2. #C C puts the book on the shelf 
+3. #C C picks a book 
+4. #C C pours the water into the cup 
+5. #C C puts the cup on the table 
+6. #C C goes to the toilet 
+7. #C C takes off the seat 
+8. #C C sits down 
+9. #C C picks up the paper 
+10. #C C wipes herself 
+11. #C C puts the paper back 
+12. #C C puts on the seat 
+13. #C C washes her hands 
+14. #C C takes out a comb 
+15. #C C opens the door 
+16. #C C walks out 
+17. #C C goes to the living room 
+18. #C C sits down 
+19. #C C reads the book 
+ 
+Corresponding Questions: 
+1. Where did I put the book? 
+2. Where did I put the book? 
+3. What book did I pick? 
+4. What did I pour into the cup? 
+5. Where did I
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1.1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On what surface did I place the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I do with the microwave? 
+5. From where did I take out a box? 
+6. Into what container did I pour grains? 
+7. Under what furniture did I open a drawer? 
+8. At what location did I look? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1.1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I place the cards? 
+2. With which hand did I drop the pack of chocolates? 
+3. What did I pick? 
+4. With what did I open the microwave oven? 
+5. What did I pick? 
+6. What poured grains into a blender? 
+7. Under which piece of furniture was I opening a drawer? 
+8. In which direction did I look? 
+9. What touched? 
+10. At what did I look?
+
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1.1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick? 
+4. Which appliance did I open? 
+5. What did I pick? 
+6. Into which machine did I pour grains? 
+7. Under which surface did I open a drawer? 
+8. At which location did I look? 
+9. Which item did I touch? 
+10. At which animal did I look?
+
+ =========================================================================== 
+Testing with max_length=1000, temperature=0.9, repetition_penalty=1.1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. On which surface did I drop the pack of chocolate? 
+3. Which hand did I use to pick a chocolate bar? 
+4. Where did I pour grains into blender? 
+5. Into which container did I pour grains? 
+6. With which hand did I open a drawer? 
+7. What did I look at while driving? 
+8. What did I touch? 
+9. What was I doing when I looked at the dog?
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open under the kitchen table? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1.1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop onto the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open? 
+5. What did I pick from the box? 
+6. What did I pour into the blender? 
+7. Where did I open the drawer? 
+8. On what did I look? 
+9. What did I touch? 
+10. What did I look at?
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1.1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open using my hands? 
+5. Where did I find the box? 
+6. What did I pour into the blender? 
+7. What did I open below the kitchen table? 
+8. At what location did I look? 
+9. What did I touch? 
+10. At what location did I look?
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1.1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I place the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick from the pack of chocolates? 
+4. What did I open? 
+5. What did I pick from the box? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What was I looking at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.7, repetition_penalty=1.1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On which surface did I place the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. From where did I pick the chocolate bar? 
+4. Which appliance did I open? 
+5. From where did I pick the box? 
+6. Into which device did I pour the grains? 
+7. Under which piece of furniture did I open the drawer? 
+8. At which location did I look? 
+9. On which object did I touch my finger? 
+10. To whom did I direct my gaze? 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. Where did I look? 
+************************************** 
+ 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. Where did I look? 
+************************************** 
+ 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. Where did I look? 
+************************************** 
+ 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. Where did I look? 
+************************************** 
+ 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. Where did I open a drawer? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. What did I drop on the carton on the shelf? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1.1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. Which chocolate bar did I pick? 
+4. Which appliance did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. From where did I open a drawer? 
+8. On what did I look? 
+9. What did I touch? 
+10. What did I look at?
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1.1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I place the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open? 
+5. What did I pick from the box? 
+6. What did I pour into the blender? 
+7. Where did I find the drawer? 
+8. In what direction was I facing when I looked at the road? 
+9. On which part of the body did I touch the pillow? 
+10. In what location did I look at the dog?
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1.1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On which surface did I place the card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open using my right hand? 
+5. What did I pick from the box? 
+6. Into which container did I pour the grains? 
+7. From where did I open the drawer? 
+8. On which path did I look for a while? 
+9. What did I touch? 
+10. What was I looking at?
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.8, repetition_penalty=1.1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where does I put my card? 
+2. With which hand did I drop the pack of chocolate on the carton on the shelf? 
+3. From where did I pick the chocolate bar? 
+4. What did I open with the microwave? 
+5. What did I pick from? 
+6. Into what was I pouring grains? 
+7. Under what table did I open a drawer? 
+8. What was I looking at? 
+9. On what was I touching the pillow? 
+10. What was I looking at?
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I do with the pack of chocolate? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+ 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I do with the pack of chocolate? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. Where did I look? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. Where did I drop the pack of chocolate? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open? 
+8. What was I looking at? 
+9. What did I touch? 
+10. What did I look at? 
+************************************** 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. What did I put on the carpet? 
+2. Where did I drop the pack of chocolate? 
+3. Which hand did I use to pick the chocolate bar? 
+4. What did I do with the box? 
+5. What did I do with the grains? 
+6. What did I do with the blender? 
+7. Where did I open the drawer? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+ 
+Note: 
+Each narration must be transformed into a question that can be answered by looking at the narrations. 
+ 
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. What did I drop on the carton on the shelf with my left hand? 
+3. What did I pick? 
+4. What did I open? 
+5. What did I pick? 
+6. What did I pour into the blender? 
+7. What did I open under the kitchen table? 
+8. What did I look at? 
+9. What did I touch? 
+10. What did I look at? 
+
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1.1, top_k=40, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On what did I place the card? 
+2. With what hand did I drop the pack of chocolate on the carton on the shelf? 
+3. What did I pick from the pack of chocolate? 
+4. What did I open? 
+5. From where did I pick a box? 
+6. Into what container did I pour grains? 
+7. Under what was I opening a drawer? 
+8. At what did I look? 
+9. What did I touch? 
+10. What did I look at?
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1.1, top_k=40, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On which surface did I put the card? 
+2. What fell from my hands onto the carton on the shelf? 
+3. From where did I pick a chocolate bar? 
+4. With what did I open the microwave? 
+5. In what place did I find a box? 
+6. Into which container did I pour grains? 
+7. Under what kind of table did I find a drawer? 
+8. At what did I look? 
+9. What did I touch? 
+10. What was I looking at?
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1.1, top_k=50, top_p=0.8
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. Where did I put the card? 
+2. Where did I drop the pack of chocolate on the carton? 
+3. Which chocolate bar did I pick? 
+4. With which hand did I open the microwave? 
+5. What did I do with the box? 
+6. Into what did I pour the grains? 
+7. What did I do with the drawer under the kitchen table? 
+8. At what did I look? 
+9. What did I touch? 
+10. At what did I look?
+
+
+ =========================================================================== 
+Testing with max_length=1200, temperature=0.9, repetition_penalty=1.1, top_k=50, top_p=0.9
+ 
+Given the following narrations describing the actions of a person, generate independent, specific queries (one per line per narration) in the past tense that could be answered by looking at the narrations. 
+Use 'wh' questions such as Who, Where, Which, What, Whom, Whose, When, and How many to produce smart questions. Ensure the questions are clear by focusing on the object and verb of each narration. Replace any mention of 'C' or '#C' in the narration with 'I' in the questions. 
+ 
+************************************** 
+EXAMPLE: 
+Narrations: 
+1. #C C ironed cloth on a table 
+2. #C C interacted with X 
+3. #C C opened the top of the refrigerator with her right hand 
+4. #C C picked up the knife with her right hand 
+5. #C C put the book on the shelf 
+6. #C C saw a cat in the garden 
+ 
+Corresponding Questions: 
+1. What did I iron on the table? 
+2. Who did I interact with? 
+3. What hand did I use to open the top of the refrigerator? 
+4. What did I do with the knife? 
+5. Where did I put the book? 
+6. In what location did I see the cat? 
+************************************** 
+ 
+Now it is your turn 
+Narrations: 
+1. #C C puts card on the carpet 
+2. #C C drops the pack of chocolate on the carton on the shelf with her left hand. 
+3. #C C picks a chocolate bar 
+4. #C C opens the microwave 
+5. #C C picks a box 
+6. #C C pours grains into blender 
+7. #C C opens a drawer under a kitchen table 
+8. #C C looks at the road 
+9. #C C touches a pillow 
+10. #C C looks at a dog 
+ 
+Corresponding Questions: 
+1. On what surface did I place the card? 
+2. What object was I holding when dropping the pack of chocolate? 
+3. Where was the pack of chocolate dropped from? 
+4. What did I drop into the blender? 
+5. Where is the box located now? 
+6. Which drawer am I opening? 
+7. What animal can I see on the road? 
+8. With what body part have I touched the pillow? 
+9. Where does the dog lie? 
+
+
+
+ =========================================================================== 

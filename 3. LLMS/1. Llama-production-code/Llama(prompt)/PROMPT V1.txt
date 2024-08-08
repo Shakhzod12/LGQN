@@ -1,0 +1,29 @@
+  
+
+PROMPT VERSION 1 
+
+
+input_text = f"""Given the following narrations describing the actions of a person, generate independent from one another {len(text_narrations_list)} specific queries (one per line per narration) that could be answered by looking at the narrations.
+Use 'wh' questions only - they should start with 'where', 'what' , 'when' or 'who'. When possible, use different 'wh' questions. The questions shouldn't be generic!
+
+******************************************
+EXAMPLE:
+Narrations:
+1. #C C irons cloth on a table
+2. #C C interacts with X
+3. #C C opens the top of the refrigerator with her right hand
+4. #C C picks up the knife with her right hand"
+
+Corresponding Questions:
+1. What does C iron?
+2. Who does C interact with?
+3. What hand does C uses to open the top of the refrigerator?
+4. What does C do with the knife?
+******************************************
+
+Now it is your turn
+Narrations:
+{text}
+
+Corresponding Questions:
+"""

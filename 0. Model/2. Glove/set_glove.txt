@@ -1,0 +1,48 @@
+# ------- paste this after cloning the GitHub repo:  ---------------
+
+
+# Step 1: Download the zip file
+import os
+
+# URL of the zip file
+url = 'https://nlp.stanford.edu/data/glove.840B.300d.zip'
+zip_path = '/content/glove.840B.300d.zip'
+
+# Download the zip file
+!wget -O {zip_path} {url}
+
+# Step 2: Unzip the file
+import zipfile
+
+# Specify the directory to extract to
+extract_dir = '/content/episodic-memory/NLQ/VSLNet/data/features/'
+
+# Create the directory if it doesn't exist
+os.makedirs(extract_dir, exist_ok=True)
+
+# Unzip the file
+with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+    zip_ref.extractall(extract_dir)
+
+# Print the contents of the extracted directory
+os.listdir(extract_dir)
+
+os.remove(zip_path)
+
+
+
+# ==============================================================
+
+
+# after this cell:
+
+%%bash
+%%capture
+
+source vars.sh
+pip install nltk submitit torch torchaudio torchvision tqdm transformers tensorboard Pillow terminaltables
+
+# add these lines: ----------------------------------
+
+import nltk
+nltk.download('punkt')
